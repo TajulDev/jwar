@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    max-width: 1420px;
+}
+
+a.nav-link {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.navbar-expand-lg .navbar-nav {
+    gap: 22px
+}
+
+ul.navbar-nav.ms-auto.mb-lg-0 {
+    margin-right: 30px;
+}
+
+.contact_btn {
+    background: linear-gradient(95.36deg, #E9676D -0.81%, #CB383F 103.63%);
+    border-radius: 3px;
+    padding: 23px 86px;
+}
