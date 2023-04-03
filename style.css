@@ -70,6 +70,10 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 }
 
 /* banner css */
+.banner {
+    padding-bottom: 175px;
+}
+
 .gradient_color {
     background: linear-gradient(95.36deg, #E9676D -0.81%, #CB383F 103.63%);
     -webkit-background-clip: text;
@@ -139,6 +143,11 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     gap: 88px;
 }
 
+.carousel-inner {
+    width: 90% !important;
+    margin: 0 auto !important;
+}
+
 .carousel-control-prev-icon {
     background-image: url('assets/left-arrow.png') !important;
     background-repeat: no-repeat;
@@ -161,6 +170,49 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 }
 
 
+
+/* services css */
+.services {
+    background-color: #FFF9F9;
+    padding-top: 70px;
+    padding-bottom: 103px;
+}
+
+.services .service_card {
+    background: #FFFFFF;
+    border-radius: 20px;
+    /* width: 340px; */
+    height: 299px;
+    /* padding: 29px 0; */
+
+}
+
+
+.services h3 {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.services p {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #23293A;
+}
+
+.services .service_card p {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #777777;
+}
 
 @media screen and (max-width: 525px) {
     .multi_img {
