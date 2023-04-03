@@ -25,15 +25,19 @@ a {
     text-decoration: none !important;
 }
 
-body {
-    font-family: 'Outfit', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Inter', sans-serif;
-}
-
 
 .container {
     max-width: 1420px;
+}
+
+.custom_container {
+    max-width: 1180px;
+}
+
+.main_bg {
+    background-image: url('assets/main-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a.nav-link {
@@ -66,6 +70,14 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 }
 
 /* banner css */
+.gradient_color {
+    background: linear-gradient(95.36deg, #E9676D -0.81%, #CB383F 103.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 .banner h2 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -73,11 +85,6 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     font-size: 52px;
     line-height: 71px;
     margin-bottom: 20px;
-    background: linear-gradient(95.36deg, #E9676D -0.81%, #CB383F 103.63%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
 }
 
 .banner p {
@@ -97,4 +104,53 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     line-height: 24px;
     color: #192435;
     margin-bottom: 0;
+}
+
+/* clients section css */
+.clients {
+    padding-bottom: 175px;
+}
+
+.clients h3 {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.clients p {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 48px;
+}
+
+.carousel_bg {
+    background: #FFFEFE;
+    border-radius: 80px;
+    /* height: 165px; */
+}
+
+.carousel-control-prev-icon {
+    background-image: url('assets/left-arrow.png') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px !important;
+    width: 14px !important;
+}
+.carousel-control-next-icon {
+    background-image: url('assets/right-arrow.png') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px !important;
+    width: 14px !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1 !important;
 }
