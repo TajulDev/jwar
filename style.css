@@ -176,6 +176,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     background-color: #FFF9F9;
     padding-top: 70px;
     padding-bottom: 103px;
+    margin-bottom: 175px;
 }
 
 .services .service_card {
@@ -222,6 +223,13 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     background-position: top right, bottom left;
 }
 
+.leadership .leadership_card {
+    background: #FBFBFC;
+    border-radius: 20px;
+    padding-top: 77px;
+    padding-bottom: 56px;
+}
+
 .leadership h2 {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
@@ -231,7 +239,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     margin-bottom: 12px;
 }
 
-.leadership p {
+.leadership .sub_title {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -239,7 +247,55 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     line-height: 30px;
     text-align: center;
     color: #333333;
+    margin-bottom: 50px;
 }
+
+.leadership .leadership_card img {
+    margin-bottom: 28px;
+}
+
+.leadership .leadership_card .name {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 7px;
+}
+
+.leadership .leadership_card .position {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #8B939B;
+    margin-bottom: 18px;
+}
+
+.leadership .leadership_card .hr {
+    position: relative;
+}
+
+.leadership .leadership_card .hr::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    color: red;
+    width: 100%;
+}
+
+.leadership .leadership_card .Linkedin {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 18px;
+}
+
+
 
 
 
