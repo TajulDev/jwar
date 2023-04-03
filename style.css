@@ -372,7 +372,59 @@ footer #copy {
 }
 
 @media screen and (max-width: 525px) {
+    .contact_btn {
+        padding: 15px 20px;
+    }
+
+    .banner {
+        padding-bottom: 40px;
+    }
+
+    .banner h2 {
+        font-size: 30px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .clients {
+        padding-bottom: 40px;
+    }
+
+    .clients h3 {
+        font-size: 30px;
+    }
+
+    .clients p {
+        font-size: 16px;
+    }
+
     .multi_img {
         gap: 10px;
+    }
+
+    .services h3 {
+        font-size: 30px;
+    }
+
+    .services p {
+        font-size: 16px;
+    }
+
+    .services .service_card p {
+        font-size: 16px;
+    }
+
+    .leadership h2 {
+        font-size: 30px;
+    }
+
+    .leadership .sub_title {
+        font-size: 16px;
+    }
+
+    .leadership .leadership_card .name {
+        font-size: 16px;
     }
 }
