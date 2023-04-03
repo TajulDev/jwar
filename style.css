@@ -132,7 +132,11 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 .carousel_bg {
     background: #FFFEFE;
     border-radius: 80px;
-    /* height: 165px; */
+    padding: 20px 0;
+}
+
+.multi_img {
+    gap: 88px;
 }
 
 .carousel-control-prev-icon {
@@ -142,6 +146,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     height: 24px !important;
     width: 14px !important;
 }
+
 .carousel-control-next-icon {
     background-image: url('assets/right-arrow.png') !important;
     background-repeat: no-repeat;
@@ -153,4 +158,12 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 .carousel-control-next,
 .carousel-control-prev {
     opacity: 1 !important;
+}
+
+
+
+@media screen and (max-width: 525px) {
+    .multi_img {
+        gap: 10px;
+    }
 }
