@@ -279,25 +279,28 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     margin-bottom: 18px;
 }
 
-.leadership .leadership_card .hr {
+.leadership .leadership_card.hr {
     position: relative;
+
 }
 
 .leadership .leadership_card .hr::after {
     position: absolute;
     content: "";
-    height: 2px;
-    color: red;
-    width: 100%;
-}
+    height: 1px;
+    background-color: lightgray;
+    width: 13%;
+    left: 50%;
+    transform: translateX(-50%);
 
+}
 .leadership .leadership_card .Linkedin {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 18px;
+    margin-top: 18px;
 }
 
 
