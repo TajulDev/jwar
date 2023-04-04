@@ -125,6 +125,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
+    margin-bottom: 12px;
 }
 
 .clients p {
@@ -221,11 +222,16 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 }
 
 /* leadership section css  */
+.leadership{
+    background-image: url('assets/dot.png');
+    background-repeat: no-repeat;
+    background-position: bottom left 11.5%;
+}
 
 .leadership .container {
-    background-image: url('assets/dot.png'), url('assets/dot.png');
-    background-repeat: no-repeat, no-repeat;
-    background-position: top right, bottom left;
+    background-image: url('assets/dot.png');
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .leadership .leadership_card {
@@ -294,6 +300,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     transform: translateX(-50%);
 
 }
+
 .leadership .leadership_card .Linkedin {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
