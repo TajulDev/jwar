@@ -285,7 +285,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     margin-bottom: 18px;
 }
 
-.leadership .leadership_card.hr {
+.leadership .leadership_card {
     position: relative;
 
 }
@@ -295,7 +295,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     content: "";
     height: 1px;
     background-color: lightgray;
-    width: 13%;
+    width: 52%;
     left: 50%;
     transform: translateX(-50%);
 
