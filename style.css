@@ -25,6 +25,10 @@ a {
     text-decoration: none !important;
 }
 
+a:hover {
+    color: unset;
+}
+
 
 .container {
     max-width: 1420px;
@@ -136,7 +140,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 .carousel_bg {
     background: #FFFEFE;
     border-radius: 80px;
-    padding: 20px 0;
+    padding: 20px 50px;
 }
 
 .multi_img {
@@ -195,6 +199,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
+    margin-bottom: 21px;
 }
 
 .services p {
@@ -297,7 +302,33 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 
 
 
+/* swipper */
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #E9676D;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 25px;
+}
 
 
 
