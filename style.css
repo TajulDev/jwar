@@ -31,7 +31,7 @@ a:hover {
 
 
 .container {
-    max-width: 1420px;
+    max-width: 1300px;
 }
 
 .custom_container {
@@ -65,12 +65,12 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 15px;
     color: #FFFFFF;
     background: linear-gradient(95.36deg, #E9676D -0.81%, #CB383F 103.63%);
     border-radius: 3px;
-    padding: 23px 86px;
+    padding: 13px 26px;
 }
 
 /* banner css */
