@@ -60,6 +60,12 @@ a.nav-link {
 ul.navbar-nav.ms-auto.mb-lg-0 {
     margin-right: 30px;
 }
+.navbar input{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
 
 .contact_btn {
     font-family: 'Outfit', sans-serif;
@@ -368,14 +374,14 @@ footer h2 {
     margin-bottom: 25px;
 }
 
-input {
+footer input {
     border: 1px solid #000000;
     border-radius: 9px;
     padding: 24px 30px;
     margin-bottom: 24px;
 }
 
-input::placeholder {
+footer input::placeholder {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 300;
