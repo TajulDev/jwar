@@ -53,9 +53,44 @@
                             </li>
 
                         </ul>
-                        <form class="d-flex" role="search">
-                            <button class="border-0 contact_btn" type="submit">Contact us</button>
-                        </form>
+                        <div class="d-flex" role="search">
+                            <!-- <button class="border-0 contact_btn" type="submit">Contact us</button> -->
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="border-0 contact_btn" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Contact us
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Form</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="">
+                                                <input class="w-100" type="email" placeholder="Enter Email Address">
+                                                <input class="w-100" type="email" placeholder="Enter subject">
+                                                <input class="w-100" type="email" placeholder="Enter your Name">
+                                                <div class="text-center">
+
+                                                    <button class="contact_btn border-0">Send</button>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
                     </div>
                 </div>
             </nav>

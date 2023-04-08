@@ -222,7 +222,7 @@ ul.navbar-nav.ms-auto.mb-lg-0 {
 }
 
 /* leadership section css  */
-.leadership{
+.leadership {
     background-image: url('assets/dot.png');
     background-repeat: no-repeat;
     background-position: bottom left 2.5%;
@@ -368,14 +368,14 @@ footer h2 {
     margin-bottom: 25px;
 }
 
-footer input {
+input {
     border: 1px solid #000000;
     border-radius: 9px;
     padding: 24px 30px;
     margin-bottom: 24px;
 }
 
-footer input::placeholder {
+input::placeholder {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -411,6 +411,7 @@ footer #copy {
     color: #000000;
     padding-bottom: 30px;
 }
+
 
 @media screen and (max-width: 525px) {
     .contact_btn {
